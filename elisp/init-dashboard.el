@@ -37,6 +37,7 @@
 
 ;; DashboardPac
 (use-package dashboard
+  :if (< (length command-line-args) 2)
   :demand
   :diminish (dashboard-mode page-break-lines-mode)
   :bind
