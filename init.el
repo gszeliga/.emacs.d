@@ -232,5 +232,8 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 ;; -InitPrivate
 
 (provide 'init)
+
+;; enable using shift + [arrows]
+(windmove-default-keybindings)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; init.el ends here
