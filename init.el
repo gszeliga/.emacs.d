@@ -229,5 +229,8 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 (require 'init-zone)
 
 (provide 'init)
+
+;; enable using shift + [arrows]
+(windmove-default-keybindings)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; init.el ends here
