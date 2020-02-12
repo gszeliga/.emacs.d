@@ -38,6 +38,8 @@
 ;;
 ;;; Code:
 
+(add-to-list 'load-path "/usr/local/share/emacs/site-lisp/mu/mu4e/")
+
 ;; Mu4ePac
 (use-package mu4e
   :ensure nil
