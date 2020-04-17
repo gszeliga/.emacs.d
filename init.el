@@ -233,6 +233,9 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 
 (provide 'init)
 
+;; custom additions
+(require 'init-expand-region)
+
 ;; enable using shift + [arrows]
 (windmove-default-keybindings)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
