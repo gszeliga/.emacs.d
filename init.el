@@ -235,6 +235,9 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 
 ;; custom additions
 (require 'init-expand-region)
+(require 'init-slime)
+(require 'init-paredit)
+
 
 ;; enable using shift + [arrows]
 (windmove-default-keybindings)
