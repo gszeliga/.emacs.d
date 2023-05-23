@@ -177,7 +177,7 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 (require 'init-company)
 
 ;; Programming
-(require 'init-java)
+;;(require 'init-java)
 
 (require 'init-cc)
 
@@ -204,7 +204,7 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 
 (require 'init-erc)
 
-(require 'init-mu4e)
+;;(require 'init-mu4e)
 
 (require 'init-tramp)
 
@@ -243,3 +243,9 @@ If you experience freezing, decrease this.  If you experience stuttering, increa
 (windmove-default-keybindings)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; init.el ends here
+
+;; rust support
+(require 'init-rust)
+
+;; (with-eval-after-load 'flycheck
+;;   (add-hook 'flycheck-mode-hook #'flycheck-inline-mode))
